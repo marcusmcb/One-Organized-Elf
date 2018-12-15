@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="./images/drake.jpg">
+    <link rel="stylesheet" href="./css/foundation.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Mountains+of+Christmas" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Groceries</title>
+</head>
+<body>
+    <div class='grid-y grid-frame'>
+        <div class='countdown-div cell shrink header medium-cell-block-container'>
+            <div class='grid-x'>
+                <div class='medium-1 cell'>
+                </div>
+                <div class='countdown medium-11 cell'>
+                </div>
+            </div>
+        </div>
+        <div class='header-div grid-x'>
+                <div class='medium-1 cell'>
+                </div>
+                <div class='medium-1 cell'>
+                    <img class="logoElf" src="./images/logoElf.png" alt="elf">
+                </div>
+                <div class="medium-3 cell">
+                    <h3 class="app-title">One Organized Elf</h3>
+                </div>
+                <div class='medium-4'>
+                </div>
+                <div class="log-in-div medium-2 cell"><a class="sign-up" href="">Happy Holidays Hope!</a>
+                    <button href="#" class="log-in-button">Log Out</button>
+                    <a href="#" height="30" width="30" alt=""><i class="fa fa-info-circle"></i></a>
+                </div>
+                <div class='medium-1'>
+                </div>
+        </div>
+        <div class='grid-y medium-grid-frame'>
+            <div class='bottom-div grid-x'>
+                <div class='decor-div medium-1 cell'>
+                </div>
+                <div class='list-div medium-3 cell'>
+                    <h1 class="list-title">Lists</h1><hr class='hr'>
+                    <div id='add-grocery-list'>
+                    </div>
+                    <input id="add-to-grocery-list" class="input-add-list" type="text" placeholder="List Title">
+                    <button class='add-to-list' onclick='addToGroceryList()'>New List</button>
+                </div>
+                <div class='main-content-div medium-7 cell'>
+                        <div class="header-tabs">
+                        <ul class="menu-lines menu menu-hover-lines">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./gifts.html">Gifts</a></li>
+                        <li><a href="./wishes.html">Wishes</a></li>
+                        <li><a href="./cards.html">Cards</a></li>
+                        <li><a href="./recipes.html">Recipes</a></li>
+                        <li class="active"><a href="./groceries.html">Groceries</a></li>
+                        <li><a href="./calendar.html">Events</a></li>
+                    </ul>
+                    </div>
+                    <h1 id="grocery-list-title" class="list-title">Click on a List to Start</h1>
+                    <div id="show-grocery-details">
+                            <h2 class='need-to-title'>Groceries To Buy:</h2>
+                            <table id="grocery-table">
+                                <tr>
+                                    <th></th>
+                                    <th>Item</th>
+                                    <th>Quantity</th>
+                                </tr>
+                                <tbody class="grocery-table-body"></tbody>
+                                <tr>
+                                    <td><input type="checkbox" name="bought" value="false"><br></td>
+                                    <td><input id="groceryItem" class="input-add-to-list" type="text" placeholder="Item"></td>
+                                    <td><input id="groceryQuantity" class="input-add-to-list" type="text" placeholder="Quantity"></td>
+                                    <td><button type="submit" class="add-to-table" onclick="addGroceryItem()">Add</button></td>
+                                    <td></td>
+                                </tr>
+                            </table>         
+                                   
+                    <button id="show-grocery" class="show-completed" onclick="showCompleted()">Show Completed</button>
+                    <button id="hide-grocery" class="show-completed" onclick="hideCompleted()">Hide Completed</button>
+                    
+                        </div>
+                        <div id="show-grocery-done">
+                                <h2 class='need-to-title'>Groceries Bought:</h2>
+                            <table id="grocery-table-done">
+                                <tbody class="done-grocery-table-body"></tbody>
+                            </table> 
+                        </div>
+                    </div>
+                <div class='decor-div medium-1 cell'>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='modal6'>
+        <label class="question" for="grocery name">What do you need to change?</label>
+        <label class="modal-label" for="grocery name">List</label>
+        <input id="grocery-list" class="modal-input" type="text">
+        <label class="modal-label" for="grocery name">Item</label>
+        <input id="grocery-item" class="modal-input" type="text">
+        <label class="modal-label" for="grocery name">Quantity</label>
+        <input id="grocery-quantity" class="modal-input" type="text">
+        <input id="modal6-id" class="id-number" type="text">
+        <button class="modal-button" onclick="updateItem()">Update</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/grocery.js"></script>
+    <script src="./js/vendor/foundation.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="./js/vendor/what-input.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+    <script>
+        window.onload = showDate()
+        window.onload = displayLists()
+    </script>
+</body>
+</html>

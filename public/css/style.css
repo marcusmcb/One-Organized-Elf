@@ -1,0 +1,445 @@
+.header-div {
+    background-image: url('../images/5.jpg');
+}
+
+.decor-div {
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+}
+
+.list-div {
+    background-color: #7abd20;
+    overflow-y: auto;
+}
+
+.bottom-div {
+    height: 100%;
+}
+
+.countdown {
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+  }
+
+.countdown-div {
+    background-image: url('../images/6.jpg')
+}
+
+.menu-lines {
+    font-size: 11px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logoElf {
+    position: absolute;
+    height: 105px;
+    z-index: 1;
+    margin-top: -40px;
+}
+
+.app-title {
+    font-size: 33px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    color: white;
+    font-family: 'Aref Ruqaa', serif;
+  }
+
+.log-in-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 9px;
+    padding-top: 9px;
+}
+
+.log-in-button {
+    padding: 8px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid white;
+}
+
+.log-in-button:hover {
+    background-color: #7abd20;
+    color: #b60a0a;
+}
+
+.sign-up {
+    font-size: 12px;
+    color: white;
+}
+
+.sign-up:hover {
+    font-size: 14px;
+}
+
+.list-title {
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 32px;
+}
+
+.add-to-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 35px;
+    width: 60px;
+    font-size: 11px;
+    color: white;
+    background-color: #b60a0a;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-to-table {
+    border-radius: 50%;
+    font-size: 10px;
+    height: 20px;
+    width: 40px;
+    color: white;
+    background-color: #b60a0a;
+    text-align: center;
+    display: inline-block;
+    margin: 6px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+table tbody td, table tbody th {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+    border: white;
+    text-align: left;
+}
+
+.checkbox {
+    margin-right: 13px;
+}
+
+#show-gift-details, #show-gift-done {
+    display: none;
+}
+
+#show-wish-details, #show-wish-done {
+    display: none;
+}
+
+#show-card-details, #show-card-done {
+    display: none;
+}
+
+#show-recipe-details, #show-recipe-done {
+    display: none;
+}
+
+#show-grocery-details, #show-grocery-done {
+    display: none;
+}
+
+.need-to-title {
+    margin-left: 10px;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 20px;
+}
+
+.recipe-pic {
+    height: 20px;
+  }
+  
+.recipe-pic:hover {
+    width: 250px;
+    height: auto;
+}
+
+.strip-border {
+    background-color: white;
+    height: 5px;
+    margin-bottom: 11px;
+}
+
+.added-to-list {
+    font-family: 'Aref Ruqaa', serif;
+    padding-left: 32px;
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+.header-tabs {
+    display: flex;
+}
+
+.input-add-to-list {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    height: 25px;
+}
+
+.input-add-list {
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    height: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #b60a0a;
+}
+
+.main-content-div {
+    overflow-y: auto;
+}
+
+td {
+    padding: 0;
+}
+
+.show-completed {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 110px;
+    font-size: 13px;
+    color: white;
+    background-color: #375c00;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-x {
+    padding: 0;
+}
+
+th {
+    font-weight: bold;
+}
+
+#hide-gift, #hide-wish, #hide-card, #hide-recipe, #hide-grocery {
+    display: none;
+}
+
+.modal {
+    background: #b60a0a;
+    background-image: url("../images/gift.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    border: 2px solid darkgreen;
+    width: 30%;
+    left: 47%;
+    padding: 15px;
+    z-index: 1;
+    top: 30%;
+    position: absolute;
+    height: 260px;
+    display: none;
+  }
+
+  .question {
+      font-size: 20px;
+      color: white;
+  }
+
+  input::placeholder {
+      color: darkgray;
+  }
+
+  .modal-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+    width: 66px;
+    font-size: 15px;
+    color: white;
+    background-color: #375c00;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#gift-title {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.id-number {
+    display: none;
+}
+
+#show-addresses-button {
+    display: none;
+}
+
+.modal7 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #b60a0a;
+    text-align: center;
+    border: 2px solid darkgreen;
+    width: 60%;
+    left: 20%;
+    padding: 15px;
+    z-index: 1;
+    top: 30%;
+    position: absolute;
+    height: auto;
+    display: none;
+}
+
+.modal-row {
+    padding: 13px;
+}
+
+.modal7.td {
+    padding: 10px;
+}
+
+.modal2, .modal3, .modal4, .modal5, .modal6, .modal8 {
+    background: #b60a0a;
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    border: 2px solid darkgreen;
+    width: 30%;
+    left: 47%;
+    padding: 15px;
+    z-index: 1;
+    top: 20%;
+    position: absolute;
+    height: auto;
+    display: none;
+  }
+
+.modal9 {
+    background: #b60a0a;
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    border: 2px solid darkgreen;
+    width: 30%;
+    left: 47%;
+    padding: 15px;
+    z-index: 1;
+    top: 10%;
+    position: absolute;
+    height: auto;
+    display: none;
+  }
+
+  .modal-input {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .modal-input::placeholder {
+      color: black;
+  }
+
+  .modal-label {
+      color:white;
+      font-size: 18px;
+  }
+
+  .delete-list-button {
+    margin-left: 45px;
+    height: 17px;
+    width: 36px;
+    font-size: 10px;
+    color: #375c00;
+    background-color: transparent;
+    border: 1px solid #375c00;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .delete-list-div {
+      display: inline;
+      justify-content: space-between;
+  }
+
+  #info {
+      font-size: 10px;
+      text-align: center;
+  }
+
+  .row {
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .event-btn {
+    height: 25px;
+    width: 36px;
+    font-size: 10px;
+    padding: 2px;
+    color: white;
+    background-color: #375c00;
+    border: 1px solid #375c00;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #edit-event {
+      margin: 5px;
+  }
+
+#index-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+#index-pg {
+    font-family: 'Aref Ruqaa', serif;
+    width: 100%;
+}
+
+.welcome {
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.prepare {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 25px;
+    margin: 23px;
+}
+
+#index-btn1, #index-btn2, #index-btn3, #index-btn4, #index-btn5, #index-btn6  {
+    background: #375c00;
+    color: white;
+    font-size: 19px;
+    padding: 8px;
+}
+
+#gift-question {
+    color: white;
+    font-size: 27px;
+}
