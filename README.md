@@ -11,7 +11,7 @@ This is a simple list-building app that's ideal for planning and organizing all 
 
 ### Link to the app
 
-https://rocky-forest-45025.herokuapp.com/
+http://www.oneorganizedelfapp.com
 
 ### Design/Development Notes
 
