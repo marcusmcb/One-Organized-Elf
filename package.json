@@ -27,7 +27,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "require": "^2.4.20",
-    "sequelize": "^4.41.2"
+    "sequelize": "^5.15.1"
   },
   "devDependencies": {}
 }
